@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<!--
+    Registration Form
+
+    Written by : Hengameh Khajehpour
+
+    March 2021
+ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-04</title>
+    <link href="Assignment04.css" rel="stylesheet" type="text/css">
+</head>
+<div id="allPage">
+    <body>
+        <h1>Member Registration</h1>
+            <form name = "myForm" onsubmit="return validate();"> 
+                <table>
+					<tr>
+						<td>
+							<label>First Name:</label>
+							</td>
+						<td>
+							<input name="firstName" id="firstName" class="textField" type="text" placeholder="First Name" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Last Name:</label>
+						</td>
+						<td>
+							<input name="lastName" id="lastName" class="textField" type="text" placeholder="Last Name" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Address:</label>
+						</td>
+						<td>
+							<input name="address" id="address" class="textField" type="text" placeholder="Apt.number - Street" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>City:</label>
+						</td>
+						<td>
+							<input name="city" id="city" class="textField" type="text" placeholder="City" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Postal code:</label>
+						</td>
+						<td>
+							<input name="postalCode" id="postalCode" class="textField" type="text" placeholder="Postal Code"  required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Province:</label>
+						</td>
+						<td>
+							<input name="province" id="province" class="textField" type="text" placeholder="Province" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Your Age:</label>
+						</td>
+						<td>
+							<input name="age" id="age" class="textField" type="number" placeholder="Your Age" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Password:</label>
+						</td>
+						<td>
+							<input name="password" id="password" class="textField" type="password"  placeholder="6 Characters with one lower case letter and one upper case letter"  required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Confirm:</label>
+						</td>
+						<td>
+							<input name="confirm" id="confirm" class="textField" type="password"  placeholder="Confirm Password"  required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Email:</label>
+						</td>
+						<td>
+							<input name="email" id="email" class="textField" type="email" placeholder="Your Email"  required>
+						</td>
+					</tr>
+                    <tr>
+                        <td>
+                            <button name="btnReset" id="btnReset" class="button" type="reset">Reset Form</button>
+                        </td>
+                        <td>
+                            <button name="btnSubmit" id="btnSubmit" class="button" type="submit">Submit Form</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="center" colspan="2" style="height: 31px; text-align: center;">
+                        <a href="../index.html">Home Page </a>
+                        </td>
+                    </tr>
+	        </table>
+        </form>
+<footer>
+	<p id="copyright">&copy;&nbsp;Copyright Hengameh Khajehpour - Assignment-04 - Comp 125 </p>
+</footer>
+<script src="Assignment04.js"></script>
+</body>
+</div>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<!--
+      Test 01 - Part B
+
+      Author: Hengameh Khajehpour 301122261
+
+      Date:  February 2021
+
+   -->
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>RegistrationForm by Hengameh</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div class="all-page"></div>
+			<div class="inner">
+				<div class="image-holder">
+					<img src="images/registration-form-4.jpg" alt="">
+				</div>
+				<form id="deliveryAddress" name="deliveryAddress">
+					<h3 id="addressDeliv">Your Delivary Address</h3>
+
+						<input id="firstD" name="firstD" type="text" placeholder="First Name"  class="form-control">
+						<input id="lastD" name="lastD" type="text" placeholder="Last Name" class="form-control">		
+						<input id="addD" name="addD" type="text" placeholder="Address" class="form-control">
+						<select id="genD" name="genD" class="form-control">
+						<option selected="" disabled="">Gender</option>
+						<option>Male</option>
+						<option>Female</option>
+						</select>
+						<input id="phoneD" name="phoneD" type="number" placeholder="Phone Number" class="form-control">
+						<select id="yearD" name="yearD" class="form-control">
+						<option selected="" disabled="">Year</option>
+						<option>2019</option>
+						<option>2020</option>
+						<option>2021</option>
+						</select>
+				</form>
+			</div>
+
+			<div class="inner">
+				<div class="image-holder">
+					<img src="images/images.jpg" alt="">
+				</div>
+				<form id="billAddress" name="billAddress">
+					<h3 id="addressBill">Your Billing Address</h3>
+
+					<label>
+						<input id="check" type="checkbox"> Same As Delivery Address
+						<span class="checkmark"></span>
+					</label>
+
+						<input id="firstB" name="firstB" type="text" placeholder="First Name"  class="form-control">
+						<input id="lastB" name="lastB" type="text" placeholder="Last Name" class="form-control">		
+						<input id="addB" name="addB" type="text" placeholder="Address" class="form-control">
+						<select id="genB" name="genB" class="form-control">
+						<option selected="" disabled="">Gender</option>
+						<option>Male</option>
+						<option>Female</option>
+						</select>
+						<input id="phoneB" name="phoneB" type="number" placeholder="Phone Number" class="form-control">
+						<select id="yearB" name="yearB" class="form-control">
+						<option selected="" disabled="">Year</option>
+						<option>2019</option>
+						<option>2020</option>
+						<option>2021</option>
+						</select>
+				</form>
+			</div>			
+			<button id="Sbtn" type="submit" onclick = "validate();">Submit</button>
+		<script src="main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+      Assignment 05 - Catch the bird
+
+      Author: Hengameh Khajehpour 301122261
+      Date:  April 2021
+
+      Filename: Assignment05.html
+-->
+<html lang="en">
+<head>
+    <link rel="icon" href="images/icon.png" type="image/png" sizes="35x35">
+    <meta charset=utf-8>
+    <title> If You Can Catch Me </title>
+    <link href="Assignment05.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="allPage">
+        <header>
+            <h1>--- If You Can Catch Me ---</h1>
+        </header>
+        <section>   
+                <div id="game"></div>
+            <aside>
+                <h3>Score: <label id="score">00</label></h3>
+                <br>
+                <h3>Speed: <label id="speed">00</label></h3>
+                <br>
+                <h3>Timer: <label id="minutes">00</label>:<label id="seconds">00</label></h3>
+                <br>
+                <button id="Rspeed" onclick="reset(this.id)">Reset Speed</button>
+                <br>
+                <button id="Rscore" onclick="reset(this.id)">Reset Score</button>
+                <br>
+                <button id="Rtimer" onclick="reset(this.id)">Reset Timer</button>
+                <div id="footer">
+                <h5>
+                    <br>Hengameh Khajehpour
+                    <br>Assignment 05
+                    <br>Comp 125
+                </h5>
+                <img id="signature" src="images/SB.png">
+            </div>
+            </aside>
+        </section>  
+    </div>
+    <script src="Assignment05.js" type="text/javascript"></script>
+</body>
+</html>
